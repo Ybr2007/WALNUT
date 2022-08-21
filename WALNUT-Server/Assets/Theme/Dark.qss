@@ -1,0 +1,140 @@
+*
+{
+    background: #212121;
+    color: #f3f3f3;
+    outline: 0px;
+}
+QLabel
+{
+    background: rgba(0, 0, 0, 0);
+    color: #f3f3f3;
+    font-family: "Microsoft YaHei";
+}
+
+QPushButton {
+    background: rgba(255, 255, 255, 20);
+    color: #f3f3f3;
+    font-family: "Microsoft YaHei";
+    outline: 0px;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background: rgba(255, 255, 255, 30);   
+}
+QPushButton:pressed {
+    background: rgba(255, 255, 255, 25);
+}
+#menuBtn {
+    background: rgba(0, 0, 0, 0);
+}
+
+#menuBtn:hover {
+    background: rgba(255, 255, 255, 10);
+    outline: 0px;
+    border: none;
+    border-radius: 4px;
+}
+
+#menuBtn:pressed {
+    background: rgba(255, 255, 255, 5);
+    outline: 0px;
+    border: none;
+    border-radius: 4px;
+}
+QLineEdit {
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #212121;
+    color: #f2f2f2;
+    font-family: "Microsoft YaHei";
+    font-size: 18pt;
+}
+
+QLineEdit:hover {
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    background-color: #212121;
+    color: #ff0000;
+}
+
+QLineEdit:disabled {
+    border: 1px solid #CDCDCD;
+    background-color: #323232;
+    color: #B4B4B4;
+}
+
+QLineEdit:read-only {
+    background-color: #323232;
+    color: #F2F2F2;
+}
+
+QTreeView {
+    background: transparent;
+    outline: 0px;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+QTreeView::item 
+{
+    height: 35px;
+}
+
+QTreeView::item:hover {
+    background: transparent;
+    color: #ff0000;
+}
+
+QTreeView::item:selected {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border-radius: 4px;
+}
+
+
+QComboBox{
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #212121;
+    color: #f2f2f2;
+    font-family: "Microsoft YaHei";
+    font-size: 12pt;
+    height: 35px;
+}
+QComboBox:hover {
+    background: transparent;
+    color: #ff0000;
+}
+
+QComboBox QAbstractItemView::item {
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+    padding-left: 5px;
+    background-color: #212121;
+    color: #f2f2f2;
+    font-family: "Microsoft YaHei";
+    font-size: 12pt;
+    height: 35px;
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background: transparent;
+    color: #ff0000;
+}
+Switch[isClicked="true"]
+{
+    qproperty-backgroundColor: #ff0000;
+    qproperty-fontColor: #212121;
+}
+Switch[isClicked="false"]
+{
+    qproperty-backgroundColor: #c4c4c4;
+    qproperty-fontColor: #ff0000;
+}
